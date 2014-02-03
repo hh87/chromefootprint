@@ -1,0 +1,20 @@
+{
+    "name":"FootPrint",
+    "version":"0.1",
+    "author":"hh",
+    "manifest_version":2,
+    "description":"监测浏览过的网页，上传到gae",
+    "background":{
+        "page":"background.html",
+        "script":"background.js"
+    },
+    "browser_action":{
+        "default_icon":"icon.png"
+    },
+    "permissions":[
+        "background",
+        "webNavigation",
+        "webRequest",
+        "<all_urls>"
+    ]
+}
